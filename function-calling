@@ -1,0 +1,10 @@
+#include <iostream>
+void greetUser(std::string name) { // Function definition (void for no return)
+  std::cout << "Hello, " << name << "!" << std::endl;
+}
+
+int main() {
+  greetUser("Alice"); // Function call with argument
+  greetUser("Bob");    // Another call with different argument
+  return 0;
+}
